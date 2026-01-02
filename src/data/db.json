@@ -1,0 +1,66 @@
+{
+  "views": {
+    "p5": 27,
+    "p4": 29,
+    "p2": 24,
+    "p1": 27,
+    "p8": 13,
+    "p11": 8,
+    "p3": 14,
+    "p6": 8,
+    "p7": 10,
+    "p10": 5,
+    "p13": 8,
+    "p9": 6,
+    "p12": 2
+  },
+  "orders": [
+    {
+      "id": "ORDER-p1-1767334543777",
+      "amount": 35000,
+      "productName": "Order ORDER-p1-1767334543777",
+      "status": "PENDING",
+      "date": "2026-01-02T06:15:43.780Z",
+      "customerName": "Sachin Pokharel"
+    },
+    {
+      "id": "ORDER-p3-1767333868303",
+      "amount": 18000,
+      "productName": "eSewa Order",
+      "status": "COMPLETE",
+      "date": "2026-01-02T06:04:43.725Z"
+    },
+    {
+      "id": "ORDER-p1-1767332447171",
+      "amount": 35000,
+      "productName": "Order ORDER-p1-1767332447171",
+      "status": "PENDING",
+      "date": "2026-01-02T05:40:47.174Z"
+    },
+    {
+      "id": "ORDER-p2-1767332109268",
+      "amount": 13000,
+      "productName": "eSewa Order",
+      "status": "COMPLETE",
+      "date": "2026-01-02T05:35:24.722Z"
+    }
+  ],
+  "carts": {
+    "chy85p": {
+      "sessionId": "chy85p",
+      "items": [
+        {
+          "id": "p4",
+          "name": "Lumina Floor Lamp",
+          "slug": "lumina-floor-lamp",
+          "price": 4500,
+          "image": "https://placehold.co/600x400/ea580c/white?text=Lamp",
+          "description": "Modern lighting for any corner.",
+          "quantity": 1
+        }
+      ],
+      "total": 4500,
+      "lastUpdated": "2026-01-02T05:32:26.018Z"
+    }
+  }
+}
