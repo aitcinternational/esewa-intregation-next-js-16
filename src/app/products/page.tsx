@@ -33,7 +33,7 @@ export default function ProductsPage() {
             {/* Header */}
             <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-100">
                 <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-                    <div className="text-2xl font-bold text-blue-700 tracking-tight">FURNEST</div>
+                    <div className="text-2xl font-bold text-blue-700 tracking-tight">eSewa Integration Demo</div>
                     <nav className="flex items-center space-x-6 text-sm font-medium text-gray-500">
                         <span className="text-blue-600">Shop</span>
                         <Link href="/cart" className="relative group">
@@ -104,7 +104,7 @@ export default function ProductsPage() {
             </main>
 
             <footer className="mt-20 py-10 border-t border-gray-100 text-center text-gray-400 text-sm">
-                &copy; {new Date().getFullYear()} FURNEST Demo Shop. All rights reserved.
+                &copy; {new Date().getFullYear()} eSewa Integration Demo. All rights reserved.
             </footer>
         </div>
     );

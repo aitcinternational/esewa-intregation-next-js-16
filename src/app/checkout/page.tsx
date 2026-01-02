@@ -22,7 +22,9 @@ function CheckoutContent() {
     // State
     const [loading, setLoading] = useState(false);
     const [shippingMethod, setShippingMethod] = useState<'delivery' | 'pickup'>('delivery');
-    const [singleQuantity, setSingleQuantity] = useState(1);
+    const quantityParam = searchParams.get('quantity');
+    const initialQty = quantityParam ? parseInt(quantityParam, 10) : 1;
+    const [singleQuantity, setSingleQuantity] = useState(initialQty > 0 ? initialQty : 1);
     const [fullName, setFullName] = useState('');
 
     // Calculations
@@ -124,7 +126,7 @@ function CheckoutContent() {
         <div className="min-h-screen bg-white text-gray-800 font-sans">
             {/* Header / Stepper */}
             <header className="container mx-auto px-6 py-6 flex justify-between items-center border-b border-gray-100">
-                <Link href="/" className="text-2xl font-bold text-blue-700 tracking-tight">FURNEST</Link>
+                <Link href="/" className="text-2xl font-bold text-blue-700 tracking-tight">eSewa Integration Demo</Link>
                 <CheckoutStepper currentStep="checkout" />
             </header>
 
@@ -315,7 +317,7 @@ function CheckoutContent() {
 
 export default function CheckoutPage() {
     return (
-        <Suspense fallback={<div className="flex h-screen items-center justify-center">Loading FURNEST Checkout...</div>}>
+        <Suspense fallback={<div className="flex h-screen items-center justify-center">Loading eSewa Integration Demo Checkout...</div>}>
             <CheckoutContent />
         </Suspense>
     )

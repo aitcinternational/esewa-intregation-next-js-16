@@ -26,7 +26,7 @@ export default function CartPage() {
     return (
         <div className="min-h-screen bg-white font-sans text-gray-800">
             <header className="container mx-auto px-6 py-6 border-b border-gray-100 flex justify-between items-center">
-                <Link href="/" className="text-2xl font-bold text-blue-700 tracking-tight">FURNEST</Link>
+                <Link href="/" className="text-2xl font-bold text-blue-700 tracking-tight">eSewa Integration Demo</Link>
                 <CheckoutStepper currentStep="cart" />
             </header>
 
