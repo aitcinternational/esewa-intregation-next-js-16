@@ -51,7 +51,7 @@ export async function POST(request: Request) {
         // Note: The example input string format for request was `total_amount=100,...`
         // For response, we follow the same pattern using the fields listed in `signed_field_names`
 
-        let signatureString = "";
+        //let signatureString = "";
         const fields = signed_field_names.split(',');
 
         // Build the string: key=value,key=value
